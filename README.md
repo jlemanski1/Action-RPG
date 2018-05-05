@@ -1,2 +1,30 @@
-# Action-RPG
-Action RPG, inspired by the Diablo series, and Path of Exile. Meant to be a long term side project used to learn &amp; implement new things!
+# Action RPG
+
+Inspired by the Diablo series & Path of Exile, I started this project to have something fun to work on while learning new skills and practices. 
+
+It was abandonned for awhile during the school year but I am getting back to it. I hope to add more systems and polish the current ones, before unifying the design and artstyle. This README will be added to and polished as I get back up to speed on the codebase and delve back into the project.
+
+## Contributing
+
+This is a personal project meant for learning so I'm expecting/hoping to do everything myself, art and programming included. While unlikely, if anyone comes across this and wants to contribute, please contact me, that would be more than welcome. 
+
+
+## Built With
+
+* [Unity3D](https://unity3d.com/) - Game Engine
+* [Blender](https://www.blender.org/) - Modelling, sculpting, and animating
+* [Substance](https://www.allegorithmic.com/substance) - Create textures and materials
+
+
+## Contributing
+
+Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+
+## Versioning
+
+I use [SemVer](http://semver.org/) for versioning.
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
