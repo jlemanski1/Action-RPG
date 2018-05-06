@@ -16,10 +16,6 @@ This is a personal project meant for learning so I'm expecting/hoping to do ever
 * [Substance](https://www.allegorithmic.com/substance) - Create textures and materials
 
 
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
 ## Versioning
 
 I use [SemVer](http://semver.org/) for versioning.
