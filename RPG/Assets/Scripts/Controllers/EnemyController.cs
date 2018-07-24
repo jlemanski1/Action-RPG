@@ -33,6 +33,7 @@ public class EnemyController : MonoBehaviour
                 if (targetStats != null)
                 {
                     combat.Attack(targetStats);
+
                 }
                 
                 FaceTarget();   //Stay facing the target while in sight

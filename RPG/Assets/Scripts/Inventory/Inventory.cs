@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Inventory : MonoBehaviour {
 
@@ -32,6 +33,8 @@ public class Inventory : MonoBehaviour {
             //Check for full inventory
             if (items.Count >= space)
             {
+                // TODO: Make UI popup to indicate full inventory
+
                 Debug.Log("Not enough inventory space.");
                 return false;
             }

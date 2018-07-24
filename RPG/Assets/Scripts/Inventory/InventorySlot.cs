@@ -3,12 +3,19 @@ using UnityEngine.UI;
 
 public class InventorySlot : MonoBehaviour {
 
+    public GameObject player;
+    PlayerStats playerStats;
+
     Item item;  //Current item in the slot
 
     public Image icon;
     public Button removeButton;
 
     public InventoryUI inventoryUI;
+
+    private void Awake() {
+        playerStats = player.GetComponent<PlayerStats>();
+    }
 
     //Add Item to slot
     public void AddItem(Item newItem)
@@ -54,6 +61,9 @@ public class InventorySlot : MonoBehaviour {
                 Inventory.instance.Remove(item);
 
                 //Modify stats
+                playerStats.life.AddModifier(item.lifeModifier);        // Life
+                playerStats.attack.AddModifier(item.attackModifier);    // Attack
+                playerStats.defense.AddModifier(item.defenseModifier);  // Defense
             }
         }
     }
