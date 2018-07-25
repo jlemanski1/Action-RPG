@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Controllers",
+    "\\Inventory",
+    "\\Items",
+    "\\Quests",
+    "\\Stats"
+  ],
+  "SelectedNode": "\\Quests\\Quest.cs",
+  "PreviewInSolutionExplorer": false
+}
