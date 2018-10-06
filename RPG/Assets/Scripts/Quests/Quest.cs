@@ -7,7 +7,7 @@ public class Quest : ScriptableObject
 {
     new public string name = "New Quest";
 
-    public GameObject questGiver;
+    public string questGiver;
 
     [Header("Quest Conditions")]
     public Transform destionation;      // Location to reach to end quest
@@ -17,7 +17,7 @@ public class Quest : ScriptableObject
     [TextArea]
     public string desc = "Description/Directive";
 
-    [TextAreaa]
+    [TextArea]
     public string story = "Description/Narrative";  // The story written in the journal for the quest
 
     //Make a QuestManager that handles active quests & opened quests

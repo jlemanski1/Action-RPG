@@ -17,7 +17,7 @@ public class QuestJournal : MonoBehaviour
 	void Start ()
 	{
         QuestName.text = quest.name;
-        QuestGiverName.text = quest.questgiver;
+        QuestGiverName.text = quest.questGiver;
         QuestDescription.text = quest.desc;
 	}
 

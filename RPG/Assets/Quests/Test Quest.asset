@@ -3,7 +3,7 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -12,6 +12,9 @@ MonoBehaviour:
   m_Name: Test Quest
   m_EditorClassIdentifier: 
   name: Test Quest
-  questgiver: Bridge Noticeboard
+  questGiver: 
+  destionation: {fileID: 0}
+  count: 0
   desc: The noticeboard has a post about help needed beyond the bridge, but it doesn't
     say where to go... or who needs help. I better go check it out.
+  story: Description/Narrative
