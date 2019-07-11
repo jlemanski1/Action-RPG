@@ -2,7 +2,7 @@
 
 Inspired by the Diablo series & Path of Exile, I started this project to have something fun to work on while learning new skills and practices. 
 
-It was abandonned for awhile during the school year but I am getting back to it. I hope to add more systems and polish the current ones, before unifying the design and artstyle. This README will be added to and polished as I get back up to speed on the codebase and delve back into the project.
+It was abandoned for awhile during the school year but I am getting back to it. I hope to add more systems and polish the current ones, before unifying the design and artstyle. This README will be added to and polished as I get back up to speed on the codebase and delve back into the project.
 
 ## Contributing
 
